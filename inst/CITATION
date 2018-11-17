@@ -1,0 +1,30 @@
+citHeader("To cite package 'dsfeatfreqcomp' in publications use:")
+
+year <- sub(".*(2[[:digit:]]{3})-.*", "\\1", meta$Date, perl = TRUE)
+vers <- paste("R package version", meta$Version)
+
+citEntry(entry="Article",
+         title = "Gaining New Insight in Datasets via Multiple Binary-Feature Frequency Ranks with A Benign/Malign Mobile Apps Example",
+         author = personList(as.person("Gürol Canbek"),
+                             as.person("Seref Sagiroglu"),
+                             as.person("Tugba Taskaya Temizel")),
+         year = 2018,
+         note = "Submitted",
+         journal = 'Journal of Machine Learning Research (JMLR)',
+         textVersion =
+         paste("Gürol Canbek (",
+               year,
+               "). Gaining New Insight in Datasets via Multiple Binary-Feature Frequency Ranks with A Benign/Malign Mobile Apps Example, Journal of Machine Learning Research (JMLR).",
+               sep=""))
+
+citEntry(entry="Manual",
+         title = "dsfeatfreqcomp: Dataset Feature Frequency Comparison",
+         author = personList(as.person("Gürol Canbek")),
+         year = year,
+         note = vers,
+
+         textVersion =
+         paste("Gürol Canbek (",
+               year,
+               "). dsfeatfreqcomp: Dataset Feature Frequency Comparison. ",
+               vers, ".", sep=""))

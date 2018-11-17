@@ -1,0 +1,30 @@
+#' @author Gürol Canbek, <gurol44@gmail.com>
+#' @references G. Canbek et al. (2018) Gaining New Insight in Datasets via Multiple Binary-Feature Frequency Ranks with A Benign/Malign Mobile Apps Example, Journal of Machine Learning Research (JMLR) (Submitted)
+#' (\href{http://gurol.canbek.com/Publications/}{Publications by Gurol Canbek})
+#' @keywords dataset analysis, quantitative analysis, feature engineering
+#' @title DsFeatFreqComp – Dataset Feature-Frequency Comparison Package
+#' @description Visualization of the comparisons among a group of datasets or
+#' between the datasets in pairs. Especially, representing p-values.
+#'
+#' The dsfeatfreqcomp package provides two categories of important functions:
+#' dataset manipulation and visualization.
+#' 
+#' @section Dataset manipulation functions:
+#' The dataset manipulation functions are
+#' \itemize{
+#'  \item \code{\link{loadDsFeatFreqsFromCsv2}}
+#'  \item \code{\link{meltDataFrame}}
+#'  \item \code{\link{loadPairwiseDsComparisonOfMeanRanks}}
+#'  \item \code{\link{getPairwiseDsPValueMatrix}}
+#' }
+#'
+#' @section Related visualization functions:
+#' \itemize{
+#'  \item \code{\link{plotDsFreqDistributionViolin}}
+#'  \item \code{\link{plotQQ}}
+#'  \item \code{\link{plotPairwiseDsPValuesHeatMap}}
+#' }
+#'
+#' @docType package
+#' @name dsfeatfreqcomp
+NULL

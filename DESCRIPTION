@@ -1,0 +1,13 @@
+Package: dsfeatfreqcomp
+Type: Package
+Title: Dataset Feature-Frequency Comparison
+Version: 1.0.0
+Author: Gurol Canbek
+Maintainer: Gurol Canbek <gurol44@gmail.com>
+Description: A package for comparing and visualizing datasets in groups or in pairs via binary-feature frequencies based on our research given in the references. Visualization includes paired comparison of the p-values of a statistical test of comparison.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
+Imports: grDevices, graphics, utils, ggplot2, ggpubr, ggsci, gplots, gridExtra, plot3D, readr, readxl, reshape, dendextend
+Depends: magrittr, stats
