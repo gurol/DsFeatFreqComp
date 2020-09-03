@@ -1,5 +1,4 @@
-## DsFeatFreqComp – Dataset Feature-Frequency Comparison R Package:
-## A Research Compedium of
+## DsFeatFreqComp – Dataset Feature-Frequency Comparison R Package: A Research Compedium of
 # Gaining New Insight in Machine-Learning Datasets via Multiple Binary-Feature Frequency Ranks with a Mobile Benign/Malware Apps Example
 
 [![Last-changedate](https://img.shields.io/badge/last%20change-2020--09--02-brightgreen.svg)](https://github.com/gurol/dsfeatfreqcomp) [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)  [![ORCiD](https://img.shields.io/badge/ORCiD-0000--0002--9337--097X-green.svg)](https://orcid.org/0000-0002-9337-097X)
