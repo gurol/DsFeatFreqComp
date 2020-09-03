@@ -1,6 +1,11 @@
-# DsFeatFreqComp – Dataset Feature-Frequency Comparison R Package
-### A Research Compedium of "Gaining New Insight in Datasets via Multiple Binary-Feature Frequency Ranks with A Benign/Malign Mobile Apps Example"
-#### To be submitted to Journal of Machine Learning Research (JMLR)
+## DsFeatFreqComp – Dataset Feature-Frequency Comparison R Package: A Research Compedium of
+# Gaining New Insight in Machine-Learning Datasets via Multiple Binary-Feature Frequency Ranks with a Mobile Benign/Malware Apps Example
+
+[![Last-changedate](https://img.shields.io/badge/last%20change-2020--09--02-brightgreen.svg)](https://github.com/gurol/dsfeatfreqcomp) [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)  [![ORCiD](https://img.shields.io/badge/ORCiD-0000--0002--9337--097X-green.svg)](https://orcid.org/0000-0002-9337-097X)
+
+This platform is a research compedium of our academic publication below.
+
+> [Gürol Canbek](http:gurol.canbek.com/Publications). *Gaining New Insight in Machine-Learning Datasets via Multiple Binary-Feature Frequency Ranks with a Mobile Benign/Malware Apps Example*, Computational Statistics & Data Analysis (CSDA), 2020 (Submitted).
 
 The dsfeatfreqcomp package provides two categories of important functions: dataset manipulation and visualization.
 
@@ -17,10 +22,10 @@ The dataset manipulation functions are
 - getPairwiseDsPValueMatrix
 
 ## Abstract
-To be updated
+Researchers compare their Machine Learning (ML) classification performances with other studies without examining and comparing the datasets they used in training, validating, and testing. One of the reasons is that there are not many convenient methods to give initial insights about datasets besides the descriptive statistics applied to individual continuous or quantitative features. After demonstrating initial manual analysis techniques, this study proposes a novel adaptation of the Kruskal-Wallis statistical test to compare a group of datasets over multiple prominent binary features that are very common in today’s datasets. As an illustrative example, the new method was tested on six benign/malign mobile application datasets over the frequencies of prominent binary-features to explore the dissimilarity of the datasets per class. The feature vector consists of over a hundred “application permission requests” that are binary flags for Android platforms’ primary access control to provide privacy and secure data/information in mobile devices. Permissions are also the first leading transparent features for ML-based malware classification. The proposed data analytical methodology can be applied in any domain through their prominent features of interest. The results, which are also visualized in new ways, have shown that the proposed method gives the dissimilarity degree among the datasets. Specifically, the conducted test shows that the frequencies in the aggregated dataset and some of the datasets are not substantially different from each other even they are in close agreement in positive-class datasets. It is expected that the proposed domain-independent method brings useful initial insight to researchers on comparing different datasets.
 
 ## Keywords
-Binary-classification; dataset comparison; data quality; feature engineering; quantitative analysis; Android; malware detection
+Machine learning; binary classification; dataset comparison; dataset profiling; feature engineering; quantitative analysis; data quality; Android; malware detection
 
 ## Package Installation
 ### From this GitHub repository
