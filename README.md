@@ -34,3 +34,6 @@ Machine learning; binary classification; dataset comparison; dataset profiling; 
 ### From local package archive file downloaded on a computer
 Go the the file's directory and run the following command in terminal
 `install.packages('dsfeatfreqcomp_1.0.0.tar.gz', repos = NULL, type = 'source')`
+
+## More information, example outputs, datasets, and extra materials
+[DsFeatFreqDist - Dataset Feature-Frequency Distributions Fitting](https://github.com/gurol/dsfeatfreqdist)
