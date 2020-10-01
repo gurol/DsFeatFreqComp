@@ -1,5 +1,5 @@
 # DsFeatFreqComp – Dataset Feature-Frequency Comparison (Dataset Manipulation)
-# Copyright (C) 2017-2018 Gürol Canbek
+# Copyright (C) 2017-2020 Gürol Canbek
 # This file is licensed under
 #
 #   GNU Affero General Public License v3.0, GNU AGPLv3
@@ -159,4 +159,47 @@ getPairwiseDsPValueMatrix<-function(df_multicompare)
   mat2df <- reshape::cast(df_multicompare, DSi~DSj, value='PValue')
   mat_pairwise_ds_pvalues <- as.matrix(mat2df)
   return(mat_pairwise_ds_pvalues)
+}
+
+#' Return the intersection of feature names given as a comma seperated list per dataset (i.e. Copy)
+#'
+#' Example usage (from spread sheet)
+#' 1) Open sample datasets.ods file in https://github.com/gurol/dsfeatfreqdist
+#' 2) Select Features (Permissions) cells in dsdist (fit features) worksheet  
+#'      for the following filters  
+#'         "Malign" in Class and  
+#'         1 in Plausibility Degree and  
+#'         "Fitted (>=xmin)" in Type and  
+#'         exclude "NA" rows  
+#'      Don't forget to include the first header row cell  
+#'         "Features (Permissions)" into your selection  
+#' 3) Copy the selected cells and set them to a data frame with one column 
+#' 4) Call getCommonFeatures() function
+#'
+#' @param ds_fit_unfit_features data frame having comma seperated list of fit/unfit features
+#' @param split seperator between column values (default: ', ')  
+#'  
+#' @return character vector  
+#' @export
+#'
+#' @examples
+#' X <- data.frame(features = c('x1, x2, x3', 'x1, x2'), stringsAsFactors = FALSE)
+#' getCommonFeatures(X)
+getCommonFeatures<-function(ds_fit_unfit_features, split=', ')
+{
+  common_features <- character()
+  ds_count <- nrow(ds_fit_unfit_features)
+  
+  if (ds_count == 0) {
+    return(common_features)
+  }
+  
+  common_features <- strsplit(ds_fit_unfit_features[1, 1], split=split)[[1]]
+  
+  for (i in 1:(ds_count-1)) {
+    features <- strsplit(ds_fit_unfit_features[i+1, 1], split=split)[[1]]
+    common_features <- intersect(common_features, features)
+  }
+  
+  return(common_features)
 }
