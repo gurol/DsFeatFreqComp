@@ -1,5 +1,5 @@
 #' @author Gürol Canbek, <gurol44@gmail.com>
-#' @references G. Canbek et al. (2018) Gaining New Insight in Datasets via Multiple Binary-Feature Frequency Ranks with A Benign/Malign Mobile Apps Example, Journal of Machine Learning Research (JMLR) (Submitted)
+#' @references G. Canbek, (2020) Gaining Insights in Datasets in the Shade of “Garbage In, Garbage Out” Rationale: Feature-Space Distribution Fitting
 #' (\href{http://gurol.canbek.com/Publications/}{Publications by Gurol Canbek})
 #' @keywords dataset analysis, quantitative analysis, feature engineering
 #' @title DsFeatFreqComp – Dataset Feature-Frequency Comparison Package
