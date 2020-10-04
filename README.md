@@ -1,13 +1,13 @@
-## DsFeatFreqComp – Dataset Feature-Frequency Comparison R Package: A Research Compedium of
+## DsFeatFreqComp – Dataset Feature-Frequency Comparison R Package: A Research Compendium of
 # Gaining New Insight in Machine-Learning Datasets via Multiple Binary-Feature Frequency Ranks with a Mobile Benign/Malware Apps Example
 
 [![Last-changedate](https://img.shields.io/badge/last%20change-2020--09--02-brightgreen.svg)](https://github.com/gurol/dsfeatfreqcomp) [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)  [![ORCiD](https://img.shields.io/badge/ORCiD-0000--0002--9337--097X-green.svg)](https://orcid.org/0000-0002-9337-097X)
 
-This platform is a research compedium of our academic publication below.
+This platform is a research compendium of my academic publication below.
 
-> [Gürol Canbek](http:gurol.canbek.com/Publications). *Gaining New Insight in Machine-Learning Datasets via Multiple Binary-Feature Frequency Ranks with a Mobile Benign/Malware Apps Example*, TBD, 2020 (Submitted).
+> [Gürol Canbek](http:gurol.canbek.com/Publications). *Gaining New Insight in Machine-Learning Datasets via Multiple Binary-Feature Frequency Ranks with a Mobile Benign/Malware Apps Example*, [Journal of Information Security and Applications (JISAS)](https://www.journals.elsevier.com/journal-of-information-security-and-applications), 2020 (*In Review*).
 
-The dsfeatfreqcomp package provides two categories of important functions: dataset manipulation and visualization.
+The DsFeatFreqComp package provides two categories of important functions: dataset manipulation and visualization.
 
 ## Related visualization functions:
 - plotDsFreqDistributionViolin
@@ -30,10 +30,10 @@ Machine learning; binary classification; dataset comparison; dataset profiling; 
 ## Package Installation
 ### From this GitHub repository
 1. Load the devtools package by `library(devtools)`. If the package is not installed already install the package by `install.packages("devtools")`
-2. Install the package from the repository by `install_github("gurol/dsfeatfreqcomp")`.
+2. Install the package from the repository by `install_github("gurol/DsFeatFreqComp")`.
 ### From local package archive file downloaded on a computer
 Go the the file's directory and run the following command in terminal
-`install.packages('dsfeatfreqcomp_1.0.0.tar.gz', repos = NULL, type = 'source')`
+`install.packages('DsFeatFreqComp_1.0.0.tar.gz', repos = NULL, type = 'source')`
 
-## More information, example outputs, datasets, and extra materials
-[DsFeatFreqDist - Dataset Feature-Frequency Distributions Fitting](https://github.com/gurol/dsfeatfreqdist)
+## The extra information about datasets
+[DsFeatFreqDistFit - Dataset Feature-Frequency Distributions Fitting](https://github.com/gurol/DsFeatFreqDistFit)
