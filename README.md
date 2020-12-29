@@ -5,7 +5,7 @@
 
 This platform is a research compendium of my academic publication below.
 
-> [Gürol Canbek](http:gurol.canbek.com/Publications). *Gaining New Insight in Machine-Learning Datasets via Multiple Binary-Feature Frequency Ranks with a Mobile Benign/Malware Apps Example*, [Journal of Information Security and Applications (JISAS)](https://www.journals.elsevier.com/journal-of-information-security-and-applications), 2020 (*Under Review*).
+> [Gürol Canbek](http:gurol.canbek.com/Publications). *Gaining New Insight in Machine-Learning Datasets via Multiple Binary-Feature Frequency Ranks with a Mobile Benign/Malware Apps Example*, [Hittite Journal of Science & Engineering](https://www.hjse.hitit.edu.tr/hjse/index.php/HJSE/issue/archive), 2020 (*Submitted*).
 
 The DsFeatFreqComp package provides two categories of important functions: dataset manipulation and visualization.
 
